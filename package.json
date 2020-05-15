@@ -1,0 +1,10 @@
+{
+	"name": "personal-website",
+	"version": "0.1.0",
+	"description": "Personal website serving as the example project for the ro-libs various packages",
+	"main": "index.js",
+	"repository": "https://github.com/alexjoyner/personal-website.git",
+	"author": "Alex Joyner <alex@voicir.com>",
+	"license": "MIT",
+	"private": true
+}
