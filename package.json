@@ -9,7 +9,7 @@
 	"scripts": {
 		"start": "parcel index.html --out-dir docs",
 		"build": "parcel build index.html --out-dir docs",
-		"test:watch": "jest --config jestconfig.json --watch",
+		"test:watch": "jest --config jestconfig.json --watch --no-cache",
 		"test": "jest --config jestconfig.json",
 		"coverage": "jest --config jestconfig.json --coverage && .\\coverage\\lcov-report\\index.html",
 		"type-check": "tsc --noEmit"
