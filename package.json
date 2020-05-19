@@ -2,9 +2,23 @@
 	"name": "personal-website",
 	"version": "0.1.0",
 	"description": "Personal website serving as the example project for the ro-libs various packages",
-	"main": "index.js",
 	"repository": "https://github.com/alexjoyner/personal-website.git",
 	"author": "Alex Joyner <alex@voicir.com>",
+	"private": true,
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html",
+		"typecheck": "tsc --noEmit",
+		"typewatch": "tsc --noEmit --watch"
+	},
 	"license": "MIT",
-	"private": true
+	"dependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"babel": {
+		"presets": [
+			"babel-preset-nano-react-app"
+		]
+	}
 }
