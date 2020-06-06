@@ -8,9 +8,9 @@
   "scripts": {
     "start": "parcel index.html --out-dir docs",
     "build": "parcel build index.html --out-dir docs",
-    "test:watch": "jest --watch --no-cache",
-    "test": "jest",
-    "coverage": "jest --coverage && .\\coverage\\lcov-report\\index.html",
+    "test": "jest --watch --no-cache",
+    "test-ci": "jest",
+    "test-coverage": "jest --coverage && .\\coverage\\lcov-report\\index.html",
     "type-check": "tsc --noEmit"
   },
   "license": "MIT",
