@@ -16,7 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "ro-component-library": "1.10.7"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",
