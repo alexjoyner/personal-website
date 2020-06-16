@@ -1,10 +1,8 @@
-import * as React from 'react';
-import { Panel } from 'ro-component-library';
-import { TestGraph } from 'ro-graph';
+import React from 'react';
 
 export default class extends React.Component {
 	state = {
-		count: 30,
+		count: 0,
 	};
 
 	increment = async () => {
@@ -13,10 +11,9 @@ export default class extends React.Component {
 
 	render() {
 		return (
-			<Panel>
+			<div>
 				<button onClick={this.increment}>clicks {this.state.count}</button>
-				<TestGraph />
-			</Panel>
+			</div>
 		);
 	}
 }

@@ -2,7 +2,9 @@
 	"extends": "../../tsconfig.json",
 	// references required for monorepo to work
 	"references": [{
-		"ro-graph": "../../packages/ro-graph"
+		"path": "../../packages/ro-graph"
+	}, {
+		"path": "../../packages/ro-component-library"
 	}],
 	"include": ["src/**/*"]
 }
