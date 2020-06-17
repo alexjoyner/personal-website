@@ -18,7 +18,7 @@
 	"dependencies": {
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"ro-component-library": "1.10.7",
+		"ro-ui-atoms": "0.1.0",
 		"ro-graph": "0.1.0"
 	},
 	"devDependencies": {
